@@ -1,11 +1,10 @@
 import {createRoot} from "react-dom/client"
-import App from "./App"
+import App from "./Appfile"
+import { Fragment } from "react"
 const Root=createRoot(document.getElementById("root"))
 
-function Apex(){
-  return <App/>
-}
-
 Root.render(
-<Apex/>
+  <>
+  <App/>
+  </>
 )

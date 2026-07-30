@@ -1,65 +1,84 @@
+
 body{
-  font-family: "Inter",sans-serif;
-position:relative;
-background-color:#F8FAFC;
-margin: 0%;
-background-image:url('./components/favicon.svg');
-background-repeat: no-repeat;
-background-size: 200px;
-background-position:right 200px ;
-z-index: -2;
+   margin:0 ;
+   padding-bottom:120px;
+   position: relative;
+   font-family: Inter,sans-serif;
+
 }
 
-
-.nav-image{
-position:absolute;
-left:150px;
-top:20px;
-}
-
-.Nav li{
-  position: absolute;
-  list-style:none;
-  left:280px;
-  font-weight:700;
-  font-size:2.2em;
-  color:#f3f8f8;
-  text-shadow: none;
-}
-
-
-
-.heading{
-  font-weight:600 ;
-  position: absolute;
-  top:150px;
-  left:170px;
+header{
+    background-color: #F55A5A;
+    display: flex;
+    color:white;
   
+    font-family: Inter,sans-serif;
+    font-weight: 400; 
+    position: relative;
+    padding-left:50px;
+    
+}
+
+
+
+.head-h1{
+    position: absolute;
+    top:10px;
+    left:170px;
+}
+
+.div1{
+    position: relative;
+}
+.Entry-facts{
+position: absolute;
+top:90px;
+left:460px;
+
+font-weight:400;
+font-size:1rem;
+display:flex;
+flex-direction: column;
+gap:3px;
+}
+
+p{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+
+.fuji-image{
+    padding-top:60px;
+    padding-left:160px;
+    margin-bottom:29px;
    
-  
+    
 }
 
-.Nav{
-
-  border:1px solid black;
-  height:80px;
-  width:100%;
-  padding-top:15px;
-  padding-bottom:5px;
 
 
-  background: linear-gradient(135deg,#5d30ab,#346fce);
+
+.fuji-link{
+    position: absolute;
+    left:90px;
+    top:12px;
 }
 
-.ul-list{
-  position:absolute;
-  top:220px;
-  left:170px;
-  font-size:1.2rem;
-  font-weight:400;
-  display: flex;
-  flex-direction: column;
-  margin-block:30px;
-  gap:20px;
-  
+.Entry-country{
+    position: absolute;
+    left:30px;
+    top:13px;
 }
+
+.div2{
+    position: relative;
+}
+
+.sydney-link{
+    position: absolute;
+    top:12px;
+    left:128px;
+}
+
+
